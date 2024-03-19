@@ -42,7 +42,7 @@ func main() {
 func hola(name string) (string, error) {
 
 	if name == "" {
-		return "", errors.New("Nombre vacio")
+		return "", errors.New("Nombre vacioSS")
 	}
 	menesaje := fmt.Sprintf(randomFormat(), name)
 
