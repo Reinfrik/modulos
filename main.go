@@ -12,7 +12,7 @@ func main() {
 	log.SetPrefix("modulos : ")
 	log.SetFlags(0)
 
-	var mensaje string = "1s"
+	var mensaje string = "1s sss"
 
 	mensaje, err := hola("Pedro")
 
